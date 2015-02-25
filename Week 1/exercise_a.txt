@@ -1,0 +1,155 @@
+RWET Programming Exercise A
+Text processing on the UNIX command line
+
+---
+Step 1. Write the command to download the text file with the following URL to
+your computer with the filename "frost.txt". (Hint: You'll need to use the
+"curl" command, and possibly redirection with ">").
+ 
+Here's the URL:
+  http://rwet.decontextualize.com/texts/frost.txt
+ 
+Write the command here:
+
+curl http://rwet.decontextualize.com/texts/frost.txt >frost.txt
+
+
+(This command will print no output to the screen.)
+
+---
+Step 1a. Verify step 1 by typing the following command:
+
+$ cat <frost.txt
+
+You should see the following:
+
+  Two roads diverged in a yellow wood,
+  And sorry I could not travel both
+  And be one traveler, long I stood
+  And looked down one as far as I could
+  To where it bent in the undergrowth;
+
+  Then took the other, as just as fair,
+  And having perhaps the better claim,
+  Because it was grassy and wanted wear;
+  Though as for that the passing there
+  Had worn them really about the same,
+
+  And both that morning equally lay
+  In leaves no step had trodden black.
+  Oh, I kept the first for another day!
+  Yet knowing how way leads on to way,
+  I doubted if I should ever come back.
+
+  I shall be telling this with a sigh
+  Somewhere ages and ages hence:
+  Two roads diverged in a wood, and I—
+  I took the one less travelled by,
+  And that has made all the difference.
+
+---
+Step 2. Write a command that displays the only the lines from frost.txt
+that contain the string "And".
+
+grep And <frost.txt
+
+You should see the following:
+
+  And sorry I could not travel both
+  And be one traveler, long I stood
+  And looked down one as far as I could
+  And having perhaps the better claim,
+  And both that morning equally lay
+  And that has made all the difference.
+
+---
+Step 3. Using a pipe, write a command that extracts the second word from
+each of the lines you displayed in Step 3. (Hint: Use the "cut" command.)
+
+grep And <frost.txt | cut -d " " -f 2
+
+You should see the following:
+
+  sorry
+  be
+  looked
+  having
+  both
+  that
+
+---
+Step 4. Add one more element to the pipe in step 3, so that the words are
+displayed in alphabetical order.
+
+grep And <frost.txt | cut -d " " -f 2 | sort -f
+
+You should see the following:
+
+  be
+  both
+  having
+  looked
+  sorry
+  that
+
+---
+Step 5. We didn't talk about "fold" in class, but it's a useful command for
+word-wrapping text. Investigate the "fold" command with "man" (type "man fold")
+and write a command below to word-wrap "frost.txt" at 20 characters, keeping
+word boundaries intact.
+
+fold -w 20 <frost.txt
+
+
+Your output should look like this:
+
+  Two roads diverged 
+  in a yellow wood,
+  And sorry I could 
+  not travel both
+  And be one 
+  traveler, long I 
+  stood
+  And looked down one 
+  as far as I could
+  To where it bent in 
+  the undergrowth;
+  
+  Then took the 
+  other, as just as 
+  fair,
+  And having perhaps 
+  the better claim,
+  Because it was 
+  grassy and wanted 
+  wear;
+  Though as for that 
+  the passing there
+  Had worn them 
+  really about the 
+  same,
+  
+  And both that 
+  morning equally lay
+  In leaves no step 
+  had trodden black.
+  Oh, I kept the 
+  first for another 
+  day!
+  Yet knowing how way 
+  leads on to way,
+  I doubted if I 
+  should ever come 
+  back.
+  
+  I shall be telling 
+  this with a sigh
+  Somewhere ages and 
+  ages hence:
+  Two roads diverged 
+  in a wood, and I—
+  I took the one less 
+  travelled by,
+  And that has made 
+  all the difference.
+
