@@ -55,32 +55,11 @@ for line in sys.stdin:
 		if len(word) == 5:
 			d['five'].append(word)
 
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+'\n'
-
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+'\n'
-
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+'\n'
-
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+'\n'
-
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
-print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+'\n'
+for i in range(0,5):
+	for j in range(0,4):
+		if j < 4:
+			print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]
+			j = j+1
+		if j == 4:
+			print d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+' '+d['five'][random.randint(0, len(d['five'])-1)]+'\n'
+	i = i+1
